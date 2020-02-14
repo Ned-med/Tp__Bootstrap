@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-container {
+    padding: 2.5rem;
+    &__title {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+}
+.content {
+    
+    &__main {
+        height: 100%;
+    }
+    &__hero {
+
+        &__heading {
+            overflow: hidden;
+            height: 15em;
+            h2 {
+                font-size: 1.5em;
+                font-weight: 600;
+            }
+        }
+        .hero {
+            height: 15em;
+            overflow: hidden;
+        }
+        
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+

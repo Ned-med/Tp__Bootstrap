@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-container {
+  padding: 2.5rem;
+}
+
+.custom-container__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.content__main {
+  height: 100%;
+}
+
+.content__hero__heading {
+  overflow: hidden;
+  height: 15em;
+}
+
+.content__hero__heading h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.content__hero .hero {
+  height: 15em;
+  overflow: hidden;
+}
+
+.content__hero img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
