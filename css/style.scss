@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
 }
 
 .custom-container {
@@ -27,6 +28,7 @@ body {
         &__heading {
             overflow: hidden;
             height: 15em;
+            
             h2 {
                 font-size: 1.5em;
                 font-weight: 600;
@@ -44,3 +46,18 @@ body {
     }
 }
 
+// .content__main {
+//     margin-top: 1.5em;
+//     padding-left: 15px;
+//     .post {
+//         height: 9em;
+//         &__img {
+//             height: 100%;
+//             img {
+//                 height: 100%;
+//                 object-fit: fill;
+//                 display: inline-block;
+//             }
+//         }
+//     }
+// }
